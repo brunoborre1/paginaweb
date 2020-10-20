@@ -1,4 +1,5 @@
 @extends('layout')
+<h1>Inicio</h1>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,16 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
 </head>
+
 <body>
 
-<nav class="barra">
-    <ul>
-        <li><a href="index">Inicio</a></li>
-        <li><a href="contacto">Contacto</a></li>
-        <li><a href="nosotros">Nosotros</a></li>
-    </ul>
-
-</nav>
+    @yield('navegacion')
     
 </body>
+
+
 </html>
